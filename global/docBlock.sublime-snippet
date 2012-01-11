@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:Block Title/Description}
+ *
+ * @param {${2:Type}} ${3:description}$0
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>docBlock</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
