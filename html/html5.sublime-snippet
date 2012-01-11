@@ -1,0 +1,44 @@
+<!-- 
+  description: Create a clean document with HTML5 doctype
+  tab trigger: html5
+  scope:       *.*
+-->
+<snippet>
+  <content><![CDATA[
+<!doctype html>
+<!--[if lt IE 7]> <html lang="en-us" class="no-js ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="en-us" class="no-js ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="no-js ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+
+	<title dir="ltr">$1</title>
+
+	<!-- Meta Tags -->
+	<meta name="description" content="$2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/style.css" />
+
+	<!-- Modernizr -->
+	<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"></script>
+</head>
+
+<body>
+	$0
+
+<!-- JS -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="/assets/js/script.js"></script>
+
+<!-- Google Analytics -->
+
+</body>
+</html>
+]]></content>
+  <tabTrigger>html5</tabTrigger>
+</snippet>
